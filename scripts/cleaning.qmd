@@ -1,0 +1,71 @@
+---
+title: "Combining oly assessments"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+## About
+
+This script is used to clean and standardize individual oly population assessments, so they can be combined into one main file used in PSRF's oly work webpage.
+
+## Setup
+
+```{r}
+# ===== Load libraries ===== #
+library(here)
+library(tidyverse)
+library(janitor)
+library(lubridate)
+
+# ===== Read in data ===== #
+# Dyes Inlet sites ----
+chicobay_2019_raw <- read_csv(here("data", "raw", "chicobay_2019-08-30_counts_raw.csv")) |> clean_names()
+
+chicobay_2021_raw <- read_csv(here("data", "raw", "chicobay_2021-04-29_counts_raw.csv")) |> clean_names()
+
+oysterbay_2020_raw <- read_csv(here("data", "raw", "oysterbay_2020-07-03_counts_raw.csv")) |> clean_names()
+
+silverdale_raw <- read_csv(here("data", "raw", "silverdale_oyster_assessment_countsHH.csv")) |>
+  clean_names() # previously processed by HH
+
+# Fidalgo Bay sites ----
+weaverlingspit_2020_raw <- read_csv(here("data", "raw", "weaverlingspit_2020_counts_raw.csv"), na = c("ND", "NA")) |>
+  clean_names()
+
+# 
+
+```
+
+## Dyes Inlet Sites
+
+### Chico Bay
+
+#### Chico Bay 2019
+
+```{r}
+# survey_area_type should be project, or reference ----
+# what is listed in this data?
+unique(chicobay_2019_raw$survey_area_type)
+# standardize nomenclature
+chicobay_2019 <- chicobay_2019_raw |>
+  mutate(survey_area_type = 
+           case_when(survey_area_type == "reference - 0.5MLLW" ~ "Reference",
+                     survey_area_type == "enhancement2018" ~ "Project"))
+```
+
+
+#### Chico Bay 2021
+
+
+## Fidalgo Bay Sites
+
+### Weaverling Spit 2020
+
+```{r}
+# update site name to match standard in HH site name translation sheet ----
+weaverlingspit_2020 <- weaverlingspit_2020_raw |>
+  mutate(site = "Fidalgo Bay west")
+```
+
+
