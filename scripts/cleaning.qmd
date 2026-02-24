@@ -30,8 +30,13 @@ silverdale_raw <- read_csv(here("data", "raw", "silverdale_oyster_assessment_cou
   clean_names() # previously processed by HH
 
 # Fidalgo Bay sites ----
+
+fidalgo_2016_raw <- read_csv(here("data", "raw", "fidalgobay_2016_counts_raw.csv"))
+
 weaverlingspit_2020_raw <- read_csv(here("data", "raw", "weaverlingspit_2020_counts_raw.csv"), na = c("ND", "NA")) |>
   clean_names()
+
+fidalgo_2023_raw <- read_csv(here("data", "raw", "fidalgobay_2023_counts_raw.csv"))
 
 # 
 
@@ -60,12 +65,140 @@ chicobay_2019 <- chicobay_2019_raw |>
 
 ## Fidalgo Bay Sites
 
+Going to keep what feels like important information:
+- waterbody
+- recorded_site
+- site
+- date
+- sample_id
+- sample_method
+- lat
+- long
+- sampleunit_m2
+- live_oly_count
+- dead_oly_count
+- notes
+
+After each dataset looks like this, I will combine them
+
+Once combined, I will calculate density in a new data frame
+
+```{r}
+# Save list of columns I want to keep
+column_names <- c("waterbody", "site", "recorded_site", "date", "latitude", "longitude",
+                  "survey_area", "sample_id", "sample_method", "sampleunit_m2",
+                  "live_oly_count", "dead_oly_count", "notes")
+```
+
+
+### 2016
+
+Note: this survey measured plots near but only outside of the shell enhancement plots. Going to call survey_area reference for now
+
+```{r}
+# Rename columns ----
+fidalgo_2014 <- fidalgo_2016_raw |>
+  # new name = old name
+  rename("site" = "accepted_site",
+         "sample_method" = "method",
+         "live_oly_count" = "live_count",
+         "dead_oly_count" = "dead_count",
+         "sample_id" = "sampleID") |>
+  # Create survey_area column ----
+  mutate(survey_area = "reference")
+
+# Keep and order columns based on pre-made list ----
+fidalgo_2014 <- fidalgo_2014 |>
+  select(all_of(column_names))
+```
+
+### Weaverling Spit 2019
+
+We have some information here - but I need some help interpreting before including
+
+
 ### Weaverling Spit 2020
 
 ```{r}
-# update site name to match standard in HH site name translation sheet ----
-weaverlingspit_2020 <- weaverlingspit_2020_raw |>
-  mutate(site = "Fidalgo Bay west")
+# Add and rename columns ---- 
+fidalgo_2020 <- weaverlingspit_2020_raw |>
+  # new name = old name
+  rename("recorded_site" = "site",
+         "sampleunit_m2" = "unit_m2",
+         "live_oly_count" = "live_count",
+         "dead_oly_count" = "dead_count") |>
+  mutate(survey_area = "project",
+         sample_method = "transect",
+         site = "Fidalgo Bay west",
+         latitude = NA_real_,
+         longitude = NA_real_)
+
+# Keep and order columns based on list ----
+fidalgo_2020 <- fidalgo_2020 |>
+  select(all_of(column_names))
 ```
 
+
+### 2023
+
+```{r}
+# Add and rename columns ----
+fidalgo_2023 <- fidalgo_2023_raw |>
+  rename("recorded_site" = "site",
+         "sample_method" = "method",
+         "sample_id" = "sampleID",
+         "live_oly_count" = "livesamplecount") |>
+  mutate(survey_area = NA_character_,
+         site = case_when(recorded_site == "March's Point" ~ "Fidalgo Bay east",
+                          recorded_site == "Causeway - North" ~ "Fidalgo Bay west",
+                          recorded_site == "Causeway - South" ~ "Fidalgo Bay west",
+                          recorded_site == "Weaverling Spit" ~ "Fidalgo Bay west",
+                          recorded_site == "Southern Sloughs" ~ "Fidalgo Sloughs",
+                          recorded_site == "East Slough" ~ "Fidalgo Sloughs",
+                          recorded_site == "Crandle Spit (MRC Area 13)" ~ "Fidalgo Bay east",
+                          recorded_site == "Weaverling Spit - High Puddle" ~ "Fidalgo Bay west",
+                          .default = recorded_site),
+         dead_oly_count = NA_real_)
+
+# Keep and order columns based on list
+fidalgo_2023 <- fidalgo_2023 |>
+  select(all_of(column_names))
+```
+
+
+### Combine Fidalgo
+
+```{r}
+fidalgo <- rbind(fidalgo_2014, fidalgo_2020, fidalgo_2023)
+```
+
+```{r}
+# Clean environment (remove all except fidalgo and column_names)
+rm(list = setdiff(ls(), c("fidalgo", "column_names")))
+```
+
+
+```{r}
+# What unique site / survey_area pairs are there? 
+fidalgo |>
+  distinct(site, survey_area)
+```
+
+I think all of those NAs are from the 2023 survey, when I am unsure about which points are in project footprints and which are not. Hoping to figure out which is which using these maps in GIS: https://psrf.maps.arcgis.com/apps/mapviewer/index.html?layers=7925bc1ae8c14452940d12e83480a464
+
+For now, I am going to ignore that (knowing fully that will probably need to be addressed)
+
+```{r}
+# Create month / year columns ----
+fidalgo <- fidalgo |>
+  mutate(month = month(date),
+         year = year(date))
+
+# Make sampleunit_m2 numeric
+fidalgo <- fidalgo |>
+  mutate(sampleunit_m2 = as.numeric(sampleunit_m2))
+
+# Need to logic through different quadrat sizes when I have more brainpower
+
+```
 
