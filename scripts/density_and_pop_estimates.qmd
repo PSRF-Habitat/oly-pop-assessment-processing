@@ -1,6 +1,8 @@
 ---
 title: "Oyster Densities and Population Estimates"
 format: html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## About
@@ -28,9 +30,114 @@ A few ways to think about this:
 - At the level of the waterbody - Not sure that density estimates would make sense here, but getting to a population estimate when we can could be exciting context
 
 Right now, I think the answer is somewhere between option 2 and option 3. I am not sure yet how reliably we can get to a population estimate with all of our data. What if for a survey we do not know the total area surveyed? Do we take a guess or do we leave it at unknown?
-- This opens another question: if we can't get to a population estimate for all years at a site, but can for some, do we keep things one level below at density? This makes more sense to me for tracking trajectories of the population. But also, sad to not get to population when we can. Maybe the answer is... Get to population when I can for now and choose how to incorprate this info later.
+- This opens another question: if we can't get to a population estimate for all years at a site, but can for some, do we keep things one level below at density? This makes more sense to me for tracking trajectories of the population. But also, sad to not get to population when we can. Maybe the answer is... Get to population when I can for now and choose how to incorporate this info later.
 
 ```{r}
+# Calculate live oysters per square meter
+dyes_density <- dyes |>
+  mutate(oly_density_m2 = live_oly_count / sample_unit_m2)
 
+# Calculate means
+dyes_dens_means <- dyes_density |>
+  # Combine silverdale survey dates that were one day apart
+  mutate(month_year = zoo::as.yearmon(date)) |>
+  group_by(site, month_year) |>
+  summarise(n = n(),
+            avg_density = mean(oly_density_m2),
+            std_dev = sd(oly_density_m2),
+            std_err = sd(oly_density_m2) / sqrt(n()))
+
+# Check
+ggplot(dyes_dens_means, aes(x = month_year, y = avg_density)) +
+  geom_errorbar(aes(ymin = avg_density - std_err, ymax = avg_density + std_err), color = "grey50") +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~site, scales = "free") +
+  zoo::scale_x_yearmon(format = "%b %Y",
+                       breaks = unique(dyes_dens_means$month_year)) +
+  labs(title = "Dyes Inlet Oly densities",
+       subtitle = "All survey areas included. Note the scales on the y axes are unique to each panel",
+       x = "Date",
+       y = "Average # live Olys per square meter") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text = element_text(face = "bold"),
+        panel.background = element_rect())
+
+# What if I take out reference transects?
+dyes_dens_means_filtered <- dyes_density |>
+  filter(survey_area == "Project") |>
+  mutate(month_year = zoo::as.yearmon(date)) |>
+  group_by(site, month_year) |>
+  summarise(n = n(),
+            avg_density = mean(oly_density_m2),
+            std_dev = sd(oly_density_m2),
+            std_err = sd(oly_density_m2) / sqrt(n()))
+
+ggplot(dyes_dens_means_filtered, aes(x = month_year, y = avg_density)) +
+  geom_errorbar(aes(ymin = avg_density - std_err, ymax = avg_density + std_err), color = "grey50") +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~site, scales = "free") +
+  zoo::scale_x_yearmon(format = "%b %Y",
+                       breaks = unique(dyes_dens_means_filtered$month_year)) +
+  labs(title = "Dyes Inlet Oly densities",
+       subtitle = "Project survey type only. Note the scales on the y axes are unique to each panel",
+       x = "Date",
+       y = "Average # live Olys per square meter") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text = element_text(face = "bold"),
+        panel.background = element_rect())
+
+
+# What if I take out project transects?
+dyes_dens_means_ref <- dyes_density |>
+  filter(survey_area == "Reference") |>
+  mutate(month_year = zoo::as.yearmon(date)) |>
+  group_by(site, month_year) |>
+  summarise(n = n(),
+            avg_density = mean(oly_density_m2),
+            std_dev = sd(oly_density_m2),
+            std_err = sd(oly_density_m2) / sqrt(n()))
+
+ggplot(dyes_dens_means_ref, aes(x = month_year, y = avg_density)) +
+  geom_errorbar(aes(ymin = avg_density - std_err, ymax = avg_density + std_err), color = "grey50") +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~site, scales = "free") +
+  zoo::scale_x_yearmon(format = "%b %Y",
+                       breaks = unique(dyes_dens_means_ref$month_year)) +
+  labs(title = "Dyes Inlet Oly densities",
+       subtitle = "Reference survey type only. Note the scales on the y axes are unique to each panel",
+       x = "Date",
+       y = "Average # live Olys per square meter") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text = element_text(face = "bold"),
+        panel.background = element_rect())
+
+# Interestinggg ...
+
+# Look just at Silverdale, highlighting the old site names
+silver_dens_means <- dyes_density |>
+  filter(site == "Silverdale") |>
+  mutate(month_year = zoo::as.yearmon(date)) |>
+  group_by(recorded_site, month_year) |>
+  summarise(n = n(),
+            avg_density = mean(oly_density_m2),
+            std_dev = sd(oly_density_m2),
+            std_err = sd(oly_density_m2) / sqrt(n()))
+
+ggplot(silver_dens_means, aes(x = month_year, y = avg_density, color = recorded_site)) +
+  geom_errorbar(aes(ymin = avg_density - std_err, ymax = avg_density + std_err, color = recorded_site)) +
+  geom_point() +
+  geom_line() +
+  zoo::scale_x_yearmon(format = "%b %Y",
+                       breaks = unique(silver_dens_means$month_year)) +
+  labs(title = "Silverdale Oly densities",
+       subtitle = "By original recorded site name. Barker Creek is reference, Silverdale and Old Mill are project",
+       x = "Date",
+       y = "Average # live Olys per square meter") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text = element_text(face = "bold"),
+        panel.background = element_rect())
 ```
 
