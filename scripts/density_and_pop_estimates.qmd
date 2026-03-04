@@ -1,0 +1,36 @@
+---
+title: "Oyster Densities and Population Estimates"
+format: html
+---
+
+## About
+
+This script is used to make density and population estimates from PSRF's cleaned oyster population assessment data. The results from this analysis are to be displayed in a webpage highlighting our work throughout Puget Sound through data storytelling.
+
+## Setup
+
+```{r}
+# Load libraries ----
+library(here)
+library(tidyverse)
+
+# Read in data ----
+dyes <- read_csv(here("data", "processed", "dyes_inlet_oly_counts.csv"))
+```
+
+## Density estimates
+
+A few ways to think about this:
+
+- At the survey area level - project or reference?
+  - This opens up needing to distinguish between areas that are only reference, areas that are only project, and areas that are both project and reference. Because of this, I am going to treat these distinct areas on the beach as one population. They all count towards the total oly population estimate because they are all olys on the beach!
+- At the site level - Silverdale vs Chico Bay even though they are both a part of the larger waterbody
+- At the level of the waterbody - Not sure that density estimates would make sense here, but getting to a population estimate when we can could be exciting context
+
+Right now, I think the answer is somewhere between option 2 and option 3. I am not sure yet how reliably we can get to a population estimate with all of our data. What if for a survey we do not know the total area surveyed? Do we take a guess or do we leave it at unknown?
+- This opens another question: if we can't get to a population estimate for all years at a site, but can for some, do we keep things one level below at density? This makes more sense to me for tracking trajectories of the population. But also, sad to not get to population when we can. Maybe the answer is... Get to population when I can for now and choose how to incorprate this info later.
+
+```{r}
+
+```
+
