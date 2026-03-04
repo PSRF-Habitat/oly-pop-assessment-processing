@@ -20,14 +20,21 @@ library(lubridate)
 
 # ===== Read in data ===== #
 # Dyes Inlet sites ----
+
+# Chico Bay
 chicobay_2019_raw <- read_csv(here("data", "raw", "chicobay_2019-08-30_counts_raw.csv")) |> clean_names()
 
 chicobay_2021_raw <- read_csv(here("data", "raw", "chicobay_2021-04-29_counts_raw.csv")) |> clean_names()
 
+# Oyster Bay
 oysterbay_2020_raw <- read_csv(here("data", "raw", "oysterbay_2020-07-03_counts_raw.csv")) |> clean_names()
 
+# Silverdale
 silverdale_raw <- read_csv(here("data", "raw", "silverdale_oyster_assessment_countsHH.csv")) |>
-  clean_names() # previously processed by HH
+  clean_names() # previously processed by MK & HH
+
+# Mud Bay
+
 
 # Fidalgo Bay sites ----
 
@@ -42,54 +49,87 @@ fidalgo_2023_raw <- read_csv(here("data", "raw", "fidalgobay_2023_counts_raw.csv
 
 ```
 
-## Dyes Inlet Sites
+## Approach
 
-### Chico Bay
+Each larger waterbody will get their own cleaned .csv file. These files will include these columns:
 
-#### Chico Bay 2019
+- **waterbody**: The larger waterbody
+- **recorded_site**: The site name as recorded by the original surveyors
+- **site**: The standardized site name
+- **date**: yyyy-mm-dd
+- **sample_id**: Unique sample ID. References to spatial data when applicable
+- **sample_method**: random point, haphazard point, transect
+- **latitude**: Location of sample (when recorded)
+- **longitude**: Location of sample (when recorded)
+- **sample_unit_m2**: Size of quadrat used
+- **live_oly_count**: Number of live olympia oysters counted in this sample
+- **dead_oly_count**: Number of dead olympia oysters counted in this sample
+- **notes**: Notes!
 
-```{r}
-# survey_area_type should be project, or reference ----
-# what is listed in this data?
-unique(chicobay_2019_raw$survey_area_type)
-# standardize nomenclature
-chicobay_2019 <- chicobay_2019_raw |>
-  mutate(survey_area_type = 
-           case_when(survey_area_type == "reference - 0.5MLLW" ~ "Reference",
-                     survey_area_type == "enhancement2018" ~ "Project"))
-```
+After each survey sheet looks like this, I will combine them to the larger waterbody.
 
-
-#### Chico Bay 2021
-
-
-## Fidalgo Bay Sites
-
-Going to keep what feels like important information:
-- waterbody
-- recorded_site
-- site
-- date
-- sample_id
-- sample_method
-- lat
-- long
-- sampleunit_m2
-- live_oly_count
-- dead_oly_count
-- notes
-
-After each dataset looks like this, I will combine them
-
-Once combined, I will calculate density in a new data frame
+Once combined, I will calculate density in a new data frame.
 
 ```{r}
 # Save list of columns I want to keep
 column_names <- c("waterbody", "site", "recorded_site", "date", "latitude", "longitude",
-                  "survey_area", "sample_id", "sample_method", "sampleunit_m2",
+                  "survey_area", "sample_id", "sample_method", "sample_unit_m2",
                   "live_oly_count", "dead_oly_count", "notes")
 ```
 
+
+## Dyes Inlet Sites
+
+### Chico Bay
+
+Chico bay had 500 seeded cultch bags and 500 cubic yards of shell spread on tidelands covering 5 acres in 2018
+
+#### Chico Bay 2019
+
+MK looked briefly for site map / spatial data in drive and ArcGIS Online and did not find (3/4/26)
+
+```{r}
+# Rename columns ----
+chicobay_2019 <- chicobay_2019_raw |>
+  rename("survey_area" = "survey_area_type",
+         "sample_unit_m2" = "unit_m2",
+         "live_oly_count" = "live_count",
+         "dead_oly_count" = "dead_count")
+
+# Standardize survey area nomenclature ----
+chicobay_2019 <- chicobay_2019 |>
+  mutate(survey_area = 
+           case_when(survey_area == "reference - 0.5MLLW" ~ "Reference",
+                     survey_area == "enhancement2018" ~ "Project"))
+
+# Add columns needed ----
+chicobay_2019 <- chicobay_2019 |>
+  mutate(recorded_site = "Chico Bay",
+         latitude = NA_real_,
+         longitude = NA_real_,
+         sample_method = "Random")
+
+# Keep and order columns based on pre-made list ----
+chicobay_2019 <- chicobay_2019 |>
+  select(all_of(column_names))
+
+# Fix data types ----
+chicobay_2019 <- chicobay_2019 |>
+  mutate(dead_oly_count = NA_real_,
+         notes = NA_character_)
+```
+
+All set
+
+#### Chico Bay 2021
+
+```{r}
+
+
+```
+
+
+## Fidalgo Bay Sites
 
 ### 2016
 
