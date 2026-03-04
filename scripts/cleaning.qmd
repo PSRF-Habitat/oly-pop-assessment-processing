@@ -54,13 +54,14 @@ fidalgo_2023_raw <- read_csv(here("data", "raw", "fidalgobay_2023_counts_raw.csv
 Each larger waterbody will get their own cleaned .csv file. These files will include these columns:
 
 - **waterbody**: The larger waterbody
-- **recorded_site**: The site name as recorded by the original surveyors
 - **site**: The standardized site name
+- **recorded_site**: The site name as recorded by the original surveyors
 - **date**: yyyy-mm-dd
-- **sample_id**: Unique sample ID. References to spatial data when applicable
-- **sample_method**: random point, haphazard point, transect
 - **latitude**: Location of sample (when recorded)
 - **longitude**: Location of sample (when recorded)
+- **survey_area**: Project or Reference. Project if survey contains any project footprint, can include area outside of project footprint
+- **sample_id**: Unique sample ID. References to spatial data when applicable
+- **sample_method**: random point, haphazard point, transect
 - **sample_unit_m2**: Size of quadrat used
 - **live_oly_count**: Number of live olympia oysters counted in this sample
 - **dead_oly_count**: Number of dead olympia oysters counted in this sample
@@ -123,11 +124,94 @@ All set
 
 #### Chico Bay 2021
 
+Spatial data in ArcGIS : https://psrf.maps.arcgis.com/apps/mapviewer/index.html?layers=7d42c910eb284452ac521e38e3cfcf89
+
+3/3/26 - struggling to download attribute layer to easily grab lat and long. Thinking it's because I am not the owner and the organization has it's settings so that I can't download the data. Ask (Alex? Kari?) about this soon! 
+
 ```{r}
+# Rename columns ----
+chicobay_2021 <- chicobay_2021_raw |>
+  rename("survey_area" = "survey_area_type",
+         "sample_unit_m2" = "unit_m2",
+         "live_oly_count" = "live_count",
+         "dead_oly_count" = "dead_count")
 
+# Add columns needed ----
+chicobay_2021 <- chicobay_2021 |>
+  mutate(recorded_site = "Chico Bay",
+         latitude = NA_real_,
+         longitude = NA_real_,
+         sample_method = "Random")
 
+# Keep and order columns based on pre-made list ----
+chicobay_2021 <- chicobay_2021 |>
+  select(all_of(column_names))
+
+# Standardize survey area nomenclature ----
+chicobay_2021 <- chicobay_2021 |>
+  mutate(survey_area = 
+           case_when(survey_area == "enhancement2018" ~ "Project"))
+
+# Fix data types ----
+chicobay_2021 <- chicobay_2021 |>
+  mutate(dead_oly_count = NA_real_)
 ```
 
+Good! 
+
+Combine Chico Bay files:
+
+```{r}
+chico_bay <- rbind(chicobay_2019, chicobay_2021)
+```
+
+```{r}
+# Clean up environment
+rm(list = setdiff(ls(), c("chico_bay", "column_names")))
+```
+
+Would like to confirm with someone that we only visited Chico bay in 2019 and 2021!
+
+#### Oyster Bay
+
+Brian says that this survey includes are within the footprint of a 2011 bulk shell project, but also a large area of the surrounding tideland, effectively sampling all "productive" areas.
+
+Lat and long is included in this data. Here is the ArcGIS link anyways: https://psrf.maps.arcgis.com/apps/mapviewer/index.html?webmap=04b1c80881b7496e8bd6fec2e81b833b
+
+```{r}
+# Rename columns ----
+oysterbay_2020 <- oysterbay_2020_raw |>
+  rename("live_oly_count" = "live_count",
+         "sample_unit_m2" = "sample_unit_m")
+
+# Add columns needed ----
+oysterbay_2020 <- oysterbay_2020 |>
+  mutate(recorded_site = "Oyster Bay",
+         sample_method = "Haphazard",
+         dead_oly_count = NA_real_,
+         survey_area = "Project")   # If area includes a project at all, = project, even if there is area outside sampled
+
+# Keep and order columns based on pre-made list ----
+oysterbay_2020 <- oysterbay_2020 |>
+  select(all_of(column_names))
+
+# Standardize site names ----
+oysterbay_2020 <- oysterbay_2020 |>
+  mutate(waterbody = "Dyes Inlet",
+         site = "Oyster Bay")
+
+# Fix data types ----
+oysterbay_2020 <- oysterbay_2020 |>
+  mutate(notes = NA_character_)
+```
+
+Nice
+
+**Other Oyster Bay Notes**
+
+PSRF staff visited Oyster bay in July 2012 to look at the emergent shell area from the 2011 shell enhancement. Though the data mapping the perimeter of the shell enhancement was lost, a note mentions that the enhancement is "located as intended", abutting the western edge of the natural oyster bed.
+
+#### 
 
 ## Fidalgo Bay Sites
 
