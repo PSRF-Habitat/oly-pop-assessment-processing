@@ -1,0 +1,524 @@
+waterbody,site,recorded_site,date,latitude,longitude,survey_area,sample_id,sample_method,sample_unit_m2,live_oly_count,dead_oly_count,notes
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,1,Random,1.5,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,2,Random,2.25,14,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,3,Random,1.75,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,4,Random,3,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,5,Random,2,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,6,Random,3,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,7,Random,3.25,11,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,8,Random,1.25,11,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,9,Random,3.5,11,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,1,Random,0.0625,37,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,2,Random,0.0625,13,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,3,Random,0.0625,12,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,4,Random,0.0625,41,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,5,Random,0.0625,35,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,6,Random,0.0625,7,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,7,Random,0.0625,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,8,Random,0.0625,2,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,9,Random,0.0625,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,10,Random,0.0625,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,11,Random,0.0625,54,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,12,Random,0.0625,6,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,1,Random,3.5,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,2,Random,3,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,3,Random,3.75,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,4,Random,4.5,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,5,Random,4.75,11,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Reference,6,Random,1.75,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,1,Random,0.25,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,2,Random,0.25,27,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,3,Random,0.25,5,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,4,Random,0.25,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,5,Random,0.25,8,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,6,Random,0.25,31,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,7,Random,0.25,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,8,Random,0.25,23,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,9,Random,0.25,13,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,10,Random,0.25,22,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,11,Random,0.25,7,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,12,Random,0.25,30,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,13,Random,0.25,43,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,14,Random,0.25,17,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,15,Random,0.25,45,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,16,Random,0.25,2,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,17,Random,0.25,27,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,18,Random,0.25,28,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,19,Random,0.25,7,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,20,Random,0.25,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,21,Random,0.25,14,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,22,Random,0.25,7,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,23,Random,0.25,5,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,24,Random,0.25,4,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,25,Random,0.25,42,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,26,Random,0.25,1,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,27,Random,0.25,14,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2019-08-30,NA,NA,Project,28,Random,0.25,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,3,Random,0.5,13,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,23,Random,1.5,10,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,13,Random,2.25,4,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,30,Random,1,2,NA,flooded
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,22,Random,0.5,2,NA,flooded
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,17,Random,2.5,0,NA,flooded
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,7,Random,1.25,10,NA,flooded after first flip
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,54,Random,1,8,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,35,Random,4,7,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,21,Random,3,2,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,20,Random,3,0,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,2,Random,3,1,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,27,Random,3,1,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,52,Random,0.25,121,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,1,Random,0.75,11,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,26,Random,0.25,228,NA,NA
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,34,Random,0.25,15,NA,high mortality
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,24,Random,1,3,NA,"flooded, murky"
+Dyes Inlet,Chico Bay,Chico Bay,2021-04-29,NA,NA,Project,28,Random,1,2,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57607527,-122.6736859,Project,1,Haphazard,0.5,19,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57600728,-122.6737591,Project,2,Haphazard,0.25,39,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57594855,-122.6738013,Project,3,Haphazard,0.25,52,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,NA,NA,Project,4,Haphazard,0.25,21,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57595318,-122.6736204,Project,5,Haphazard,0.25,17,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57608036,-122.6734315,Project,6,Haphazard,0.5,14,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57585355,-122.6736202,Project,7,Haphazard,0.25,78,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57595411,-122.6734211,Project,8,Haphazard,0.25,57,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57581063,-122.6735416,Project,9,Haphazard,0.5,20,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57604678,-122.6732681,Project,10,Haphazard,0.5,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57584182,-122.6734449,Project,11,Haphazard,0.25,84,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57588536,-122.6731782,Project,12,Haphazard,0.5,15,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57583311,-122.6733075,Project,13,Haphazard,0.25,51,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57594683,-122.6730653,Project,14,Haphazard,1,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57580758,-122.673206,Project,15,Haphazard,0.25,14,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57586332,-122.6729556,Project,16,Haphazard,2,10,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57580503,-122.6728512,Project,17,Haphazard,5.5,10,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.5756763,-122.6726945,Project,18,Haphazard,0.5,10,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57561976,-122.6725691,Project,19,Haphazard,1.75,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57552184,-122.672561,Project,20,Haphazard,0.75,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57544045,-122.6726467,Project,21,Haphazard,0.5,15,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57541112,-122.6727283,Project,22,Haphazard,0.25,23,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57549394,-122.6723916,Project,23,Haphazard,0.75,16,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.5751928,-122.6725742,Project,24,Haphazard,0.25,25,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57509927,-122.6725539,Project,25,Haphazard,0.25,15,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57499768,-122.6725638,Project,26,Haphazard,2.5,12,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57490055,-122.6724819,Project,27,Haphazard,2.25,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57497784,-122.6723807,Project,28,Haphazard,2.75,11,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57511606,-122.6723451,Project,29,Haphazard,1.75,12,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57527892,-122.6723107,Project,30,Haphazard,2,12,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57534477,-122.672458,Project,31,Haphazard,0.25,13,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57535999,-122.6725594,Project,32,Haphazard,0.25,16,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57542671,-122.6725239,Project,33,Haphazard,0.25,26,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57551365,-122.6724734,Project,34,Haphazard,0.25,12,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57557982,-122.6726096,Project,35,Haphazard,0.25,10,NA,NA
+Dyes Inlet,Oyster Bay,Oyster Bay,2020-07-23,47.57558865,-122.6727237,Project,36,Haphazard,0.25,17,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,1,Haphazard,0.0625,45,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,2,Haphazard,0.0625,32,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,3,Haphazard,0.0625,30,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,4,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,5,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,6,Haphazard,0.0625,2,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,7,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,8,Haphazard,0.0625,4,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,9,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,10,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,11,Haphazard,0.0625,9,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,12,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,13,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,14,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,15,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,16,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,17,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,18,Haphazard,0.0625,2,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,19,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,20,Haphazard,0.0625,18,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,21,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,22,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,23,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,24,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,25,Haphazard,0.0625,35,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,26,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,27,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,28,Haphazard,0.0625,33,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,29,Haphazard,0.0625,46,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,30,Haphazard,0.0625,60,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,31,Haphazard,0.0625,32,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,32,Haphazard,0.0625,25,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,33,Haphazard,0.0625,2,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,34,Haphazard,0.0625,21,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,35,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,36,Haphazard,0.0625,18,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,37,Haphazard,0.0625,4,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,38,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,39,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,40,Haphazard,0.0625,14,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,41,Haphazard,0.0625,4,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,42,Haphazard,0.0625,9,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,43,Haphazard,0.0625,31,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,44,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,45,Haphazard,0.0625,4,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,46,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,47,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,48,Haphazard,0.0625,2,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,49,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,50,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,51,Haphazard,0.0625,3,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,52,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,53,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,54,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,55,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,56,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,57,Haphazard,0.0625,31,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,58,Haphazard,0.0625,31,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,59,Haphazard,0.0625,12,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,60,Haphazard,0.0625,3,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,61,Haphazard,0.0625,26,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,62,Haphazard,0.0625,40,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,63,Haphazard,0.0625,15,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,64,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,65,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,66,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,67,Haphazard,0.0625,10,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,68,Haphazard,0.0625,1,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,69,Haphazard,0.0625,16,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,70,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Mud Bay,Mud Bay,2014-06-26,NA,NA,Reference,71,Haphazard,0.0625,0,NA,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_2.5,Transect,0.25,0,0,"Sample ID here is Transect #_Distance on transect tape. Quadrat size is 0.25m^2. Site is North of Barker Creek, around Dave's pier."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_7.5,Transect,0.25,1,1,Transect 1 is characterized by an abundance of relic sand dollars.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_12.5,Transect,0.25,3,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_17.5,Transect,0.25,2,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_22.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_27.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_32.5,Transect,0.25,2,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_37.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_42.5,Transect,0.25,2,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T1_47.5,Transect,0.25,1,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_2.5,Transect,0.25,2,1,Transect 2 is characterized by an abundance of relic sand dollars.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_7.5,Transect,0.25,2,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_12.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_17.5,Transect,0.25,1,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_22.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_27.5,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_32.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_37.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_42.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T2_47.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_2.5,Transect,0.25,1,1,Transect 3 is characterized by an abundance of relic sand dollars and green algae. Most of transect 3 is in standing (seep) water.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_7.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_12.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_17.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_22.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_27.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_32.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_37.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_42.5,Transect,0.25,2,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T3_47.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_2.5,Transect,0.25,0,0,Transect 4 is characterized by an abundance of relic sand dollars and green algae.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_7.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_12.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_17.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_22.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_27.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_32.5,Transect,0.25,3,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_37.5,Transect,0.25,1,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_42.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T4_47.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_2.5,Transect,0.25,0,0,Transect 5 is characterized by an abundance of relic sand dollars and green algae.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_7.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_12.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_17.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_22.5,Transect,0.25,1,0,Anoxic sand present
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_27.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_32.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_37.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_42.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T5_47.5,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_2.5,Transect,0.25,1,0,Transect 6 is characterized by an abundance of relic sand dollars and green algae.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_7.5,Transect,0.25,3,0,1 Nucella.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_12.5,Transect,0.25,3,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_17.5,Transect,0.25,2,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_22.5,Transect,0.25,0,2,"Shift in habitat to cobble, no longer in water seep."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_27.5,Transect,0.25,0,2,"Shift in habitat to cobble, no longer in water seep. 2 Nucella."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_32.5,Transect,0.25,0,0,"Shift in habitat to cobble, no longer in water seep."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_37.5,Transect,0.25,8,3,"Shift in habitat to cobble, no longer in water seep. 1 Nucella."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_42.5,Transect,0.25,1,3,"Shift in habitat to cobble, no longer in water seep."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T6_47.5,Transect,0.25,0,0,"Shift in habitat to cobble, no longer in water seep. 1 Ocinebrellus."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_2.5,Transect,0.25,0,0,"Transect 7 is characterized by a mix of smaller cobble rocks and sand, not in a seep/standing water. 1 Nucella in quadrat."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_7.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_12.5,Transect,0.25,1,3,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_17.5,Transect,0.25,0,0,3 Ocinebrellus.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_22.5,Transect,0.25,1,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_27.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_32.5,Transect,0.25,0,0,4 Ocinebrellus and Ocinebrellus eggs.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_37.5,Transect,0.25,3,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_42.5,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T7_47.5,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_2.5,Transect,0.25,1,0,"Transect 8 is characterized by a mix of cobble rocks and sand, in a seep/standing water. 1 Nucella in quadrat."
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_7.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_12.5,Transect,0.25,8,2,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_17.5,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_22.5,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_27.5,Transect,0.25,2,1,Standing water/in the seep.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_32.5,Transect,0.25,3,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_37.5,Transect,0.25,6,2,1 Nucella.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_42.5,Transect,0.25,1,0,1 Ocinebrellus.
+Dyes Inlet,Silverdale,Barker Creek,2022-06-15,NA,NA,Reference,T8_47.5,Transect,0.25,0,0,"Dry (not in the seep), mostly cobble here."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T1_3,Transect,0.25,0,1,Sample ID here is Transect #_Distance on transect tape. Quadrat size is 0.25m^2. Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T1_13,Transect,0.25,0,0,Offshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T1_23,Transect,0.25,1,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T1_33,Transect,0.25,0,0,Offshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T1_43,Transect,0.25,0,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T2_6.4,Transect,0.25,1,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T2_16.4,Transect,0.25,0,0,Offshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T2_26.4,Transect,0.25,3,1,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T2_36.4,Transect,0.25,1,0,Offshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T2_46.4,Transect,0.25,0,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T3_4.5,Transect,0.25,0,0,"Onshore, Sand dollar habitat. T3 lost of filamentous green algae."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T3_14.5,Transect,0.25,0,0,"Offshore, Sand dollar habitat."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T3_24.5,Transect,0.25,1,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T3_34.5,Transect,0.25,0,0,"Offshore, Bambo Worm"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T3_44.5,Transect,0.25,0,0,"Onshore, Bambo Worm."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T4_5.6,Transect,0.25,0,0,"Onshore, Sand dollar habitat."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T4_15.6,Transect,0.25,0,0,"Offshore, Sand dollar habitat."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T4_25.6,Transect,0.25,0,1,"Offshore, Sand dollar habitat, Drill holes (maybe moonsnail?)"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T4_35.6,Transect,0.25,0,0,"Offshore, Drill holes (maybe moonsnail?)"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T4_45.6,Transect,0.25,0,0,Onshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T5_4.3,Transect,0.25,4,0,"Offshore, Sand dollar habitat"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T5_14.3,Transect,0.25,1,0,"Onshore, Sand dollar habitat, in enhancement (lots of Pacific shell)"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T5_24.3,Transect,0.25,0,0,"Offshore, Sand dollar habitat, in enhancement"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T5_34.3,Transect,0.25,0,0,"Onshore, in enhancement"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T5_44.3,Transect,0.25,0,0,"Offshore, bamboo worm."
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T6_3.6,Transect,0.25,0,0,Offshore
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T6_13.6,Transect,0.25,0,0,"Onshore, rocky"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T6_23.6,Transect,0.25,1,0,"Offshore, rocky"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T6_33.6,Transect,0.25,0,0,"Onshore, rocky"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T6_43.6,Transect,0.25,1,2,"Offshore, rocky"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T7_4.7,Transect,0.25,2,0,"Offshore, bamboo worm, native drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T7_14.7,Transect,0.25,0,0,"Onshore, bamboo worm, native drill snail, gren filament algae"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T7_24.7,Transect,0.25,1,2,"Offshore, rocky, native drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T7_34.7,Transect,0.25,0,1,"Onshore, rocky, native drill snail,"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T7_44.7,Transect,0.25,0,0,"Offshore, rocky, native drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T8_6,Transect,0.25,2,0,"Offshore, native drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T8_16,Transect,0.25,0,1,"Onshore, native drill snail, green filamentous algae"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T8_26,Transect,0.25,4,0,"Offshore, Bamboo worm, native drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T8_36,Transect,0.25,9,0,"Onshore, native drill snail, invasive drill snail"
+Dyes Inlet,Silverdale,Barker Creek,2024-06-24,NA,NA,Reference,T8_46,Transect,0.25,3,0,"Offshore, rocky, native drill snail."
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_49.5_off,Transect,0.25,3,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_44.5_on,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_39.5_off,Transect,0.25,1,0,"ulva, drill (3)"
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_34.5_on,Transect,0.25,2,0,"ulva, drill (2)"
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_29.5_off,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_24.5_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_19.5_off,Transect,0.25,2,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_14.5_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_9.5_off,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T1_4.5_on,Transect,0.25,0,1,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_2.3_off,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_7.3_on,Transect,0.25,2,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_12.3_off,Transect,0.25,1,0,"drill (1), ulva"
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_17.3_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_22.3_off,Transect,0.25,0,0,"drill (1), ulva"
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_27.3_on,Transect,0.25,1,1,drill (1)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_32.3_off,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_37.3_on,Transect,0.25,1,0,nucella (3)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_42.3_off,Transect,0.25,1,0,drill (2)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T2_47.3_on,Transect,0.25,0,0,drill eggs
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_5.4_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_10.4_NA,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_15.4_NA,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_20.4_NA,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_25.4_NA,Transect,0.25,1,0,drill (1)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_30.4_NA,Transect,0.25,0,0,nucella (1)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_35.4_NA,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_40.4_NA,Transect,0.25,0,0,drill (2)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_45.4_NA,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T3_50.4_NA,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_2_NA,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_7_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_12_NA,Transect,0.25,0,0,drill (2)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_17_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_22_NA,Transect,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_27_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_32_NA,Transect,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_37_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_42_NA,Transect,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T4_47_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_2.3_NA,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_7.3_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_12.3_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_17.3_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_22.3_NA,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_27.3_NA,Transect,0.25,2,0,drill (1)
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_32.3_NA,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_37.3_NA,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_42.3_NA,Transect,0.25,0,0,sand dollars
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T5_47.3_NA,Transect,0.25,0,0,sand dollars
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_2_off,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_7_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_12_off,Transect,0.25,0,0,"lots of ulva, one large cockle"
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_17_on,Transect,0.25,0,1,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_22_off,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_27_on,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_32_off,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_37_on,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_42_off,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T6_47_on,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_3.6_off,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_8.6_on,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_13.6_off,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_18.6_on,Transect,0.25,3,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_23.6_off,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_28.6_on,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_33.6_off,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_38.6_on,Transect,0.25,0,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_43.6_off,Transect,0.25,1,0,NA
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T7_48.6_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_2.7_off,Transect,0.25,4,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_7.7_on,Transect,0.25,6,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_12.7_off,Transect,0.25,0,1,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_17.7_on,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_22.7_off,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_27.7_on,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_32.7_off,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_37.7_on,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_42.7_off,Transect,0.25,0,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T8_47.7_on,Transect,0.25,1,0,ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_2.9_on,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_7.9_off,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_12.9_on,Transect,0.25,1,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_17.9_off,Transect,0.25,1,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_22.9_on,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_27.9_off,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_32.9_on,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_37.9_off,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_42.9_on,Transect,0.25,1,0,lots of ulva
+Dyes Inlet,Silverdale,Barker Creek,2025-06-25,NA,NA,Reference,T9_47.9_off,Transect,0.25,0,0,lots of ulva
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,37,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,73,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,86,Random point,0.25,0,0,sand dollar tests
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,24,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,18,Random point,0.25,0,0,"bamboo worms, batallaria"
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,23,Random point,0.25,0,0,"drill, bamboo worms"
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,16,Random point,0.25,0,0,drills
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,27,Random point,0.25,1,0,standing water
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,35,Random point,0.25,0,0,drill
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,41,Random point,0.25,0,0,batallaria
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,4,Random point,0.25,0,0,sand dollar tests
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,22,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,3,Random point,0.25,0,0,living sand dollars
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,49,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,84,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,61,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,45,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,79,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,40,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,13,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,70,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,91,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,21,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,38,Random point,0.25,1,0,"drill (2), drill eggs"
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,98,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,58,Random point,0.25,2,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,95,Random point,0.25,1,0,drill (2)
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,52,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,90,Random point,0.25,0,0,high barnacle cover
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,89,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,99,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,26,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,67,Random point,0.25,1,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,87,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,47,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,100,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,31,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,39,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,15,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,51,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,14,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,20,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,88,Random point,0.25,1,0,drill eggs & sand dollar
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,65,Random point,0.25,0,0,drill (1)
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,97,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,78,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,34,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,54,Random point,0.25,0,1,"batillaria, drill"
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,57,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,29,Random point,0.25,0,0,batillaria
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,36,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,96,Random point,0.25,0,0,"bamboo worms, batillaria"
+Dyes Inlet,Silverdale,Silverdale,2025-06-25,NA,NA,Project,75,Random point,0.25,0,0,batillaria
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,5801,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,10001,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,6901,Random point,0.25,0,0,bamboo worm
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,3101,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9901,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,4701,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,8701,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,8101,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,1401,Random point,0.25,0,0,mud
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,6201,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,6501,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,4201,Random point,0.25,2,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,8901,Random point,0.25,1,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,701,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,5201,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,801,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,7201,Random point,0.25,0,0,in creek
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,3401,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,3901,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9001,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,5001,Random point,0.25,0,0,targeted/haphazard - drills
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,4901,Random point,0.25,0,1,targeted/haphazard - drills
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,2901,Random point,0.25,0,0,"targeted/haphazard - drills, hermit crab"
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,5701,Random point,0.25,1,0,"targeted/haphazard - sand dollars, batillaria"
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,2601,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,501,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,6401,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9701,Random point,0.25,1,0,"bamboo worms, chiton"
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,6801,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9201,Random point,0.25,0,0,bamboo worm CITY
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,7801,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,4301,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,4401,Random point,0.25,1,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,5901,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9501,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,8801,Random point,0.25,0,0,NA
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,7501,Random point,0.25,0,0,bamboo worms
+Dyes Inlet,Silverdale,Silverdale,2025-06-26,NA,NA,Project,9601,Random point,0.25,0,0,"ocinebrellus eggs, bamboo worms"
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,42,Random point,0.25,0,NA,134 Pacific shell pieces in plot
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,21,Random point,0.25,0,NA,93
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,34,Random point,0.25,0,NA,28
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,83,Random point,0.25,0,NA,57
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,69,Random point,0.25,0,NA,71
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,32,Random point,0.25,0,NA,15
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,35,Random point,0.25,0,NA,23
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,68,Random point,0.25,0,NA,93
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,38,Random point,0.25,0,NA,45
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,50,Random point,0.25,0,NA,51
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,49,Random point,0.25,0,NA,1
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,97,Random point,0.25,0,NA,173
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,65,Random point,0.25,0,NA,12
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,85,Random point,0.25,0,NA,92
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,61,Random point,0.25,0,NA,72
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,5,Random point,0.25,0,NA,3
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,95,Random point,0.25,0,NA,57
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,93,Random point,0.25,0,NA,10
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,22,Random point,0.25,0,NA,37
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,39,Random point,0.25,0,NA,40
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,57,Random point,0.25,0,NA,2
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,98,Random point,0.25,0,NA,107
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,37,Random point,0.25,0,NA,7
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,51,Random point,0.25,0,NA,39
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,94,Random point,0.25,1,NA,99
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,90,Random point,0.25,1,NA,52
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,62,Random point,0.25,0,NA,109
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,100,Random point,0.25,0,NA,67
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,33,Random point,0.25,0,NA,60
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,91,Random point,0.25,0,NA,229
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,89,Random point,0.25,0,NA,16
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,25,Random point,0.25,0,NA,27
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,29,Random point,0.25,0,NA,76
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,20,Random point,0.25,0,NA,50
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,19,Random point,0.25,0,NA,59
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,16,Random point,0.25,0,NA,49
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,28,Random point,0.25,0,NA,51
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,1,Random point,0.25,0,NA,46
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,46,Random point,0.25,0,NA,29
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,47,Random point,0.25,0,NA,141
+Dyes Inlet,Silverdale,Old Mill Park,2024-06-20,NA,NA,Project,79,Random point,0.25,1,NA,150

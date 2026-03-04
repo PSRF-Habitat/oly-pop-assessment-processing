@@ -34,7 +34,8 @@ silverdale_raw <- read_csv(here("data", "raw", "silverdale_oyster_assessment_cou
   clean_names() # previously processed by MK & HH
 
 # Mud Bay
-
+mudbay_2014_raw <- read_csv(here("data", "raw", "mudbay_2014-06-26_counts_raw.csv")) |>
+  clean_names()
 
 # Fidalgo Bay sites ----
 
@@ -172,7 +173,7 @@ rm(list = setdiff(ls(), c("chico_bay", "column_names")))
 
 Would like to confirm with someone that we only visited Chico bay in 2019 and 2021!
 
-#### Oyster Bay
+### Oyster Bay
 
 Brian says that this survey includes are within the footprint of a 2011 bulk shell project, but also a large area of the surrounding tideland, effectively sampling all "productive" areas.
 
@@ -211,7 +212,84 @@ Nice
 
 PSRF staff visited Oyster bay in July 2012 to look at the emergent shell area from the 2011 shell enhancement. Though the data mapping the perimeter of the shell enhancement was lost, a note mentions that the enhancement is "located as intended", abutting the western edge of the natural oyster bed.
 
-#### 
+### Mud Bay
+
+```{r}
+# Rename columns ----
+mudbay_2014 <- mudbay_2014_raw |>
+  rename("survey_area" = "survey_area_type",
+         "sample_method" = "survey_method",
+         "sample_unit_m2" = "unit_m2",
+         "live_oly_count" = "live_count")
+
+# Add columns needed ----
+mudbay_2014 <- mudbay_2014 |>
+  mutate(recorded_site = "Mud Bay",
+         dead_oly_count = NA_real_,
+         latitude = NA_real_,
+         longitude = NA_real_,
+         notes = NA_character_)
+
+# Standardize survey area and method capitalization ----
+mudbay_2014 <- mudbay_2014 |>
+  mutate(survey_area = str_to_title(survey_area),
+         sample_method = str_to_title(sample_method))
+
+# Keep and order columns based on pre-made list ----
+mudbay_2014 <- mudbay_2014 |>
+  select(all_of(column_names))
+
+# Data types look good
+```
+
+Nice! 
+
+Did not find anything else for Mud Bay when searching the drive.
+
+### Silverdale
+
+```{r}
+# Rename columns ----
+silverdale <- silverdale_raw |>
+  rename("recorded_site" = "location",
+         "survey_area" = "pop_type",
+         "sample_method" = "method",
+         "sample_unit_m2" = "total_sample_area_m2")
+
+# Add columns needed ----
+silverdale <- silverdale |>
+  mutate(waterbody = "Dyes Inlet")
+
+# Keep and order columns based on pre-made list ----
+silverdale <- silverdale |>
+  select(all_of(column_names))
+
+# Standardize capitalization and nomenclature within columns ----
+silverdale <- silverdale |>
+  mutate(survey_area = case_when(survey_area == "ref" ~ "Reference",
+                                 survey_area == "project" ~ "Project",
+                                 .default = survey_area),
+         sample_method = str_to_sentence(sample_method))
+
+# Fix data types ----
+silverdale <- silverdale |>
+  mutate(latitude = NA_real_,
+         longitude = NA_real_)
+```
+
+Lot's of silverdale stuff in ArcGIS. Need to go digging for this at some point. Perhaps this is something that Alex can help drum up.
+
+### Combining Dyes
+
+As of 3/3/2026, this is all of the data I am aware of for oyster count assessments for Dyes Inlet.
+
+```{r}
+# Combine sites for Dyes Inlet waterbody into one file and save to use later ----
+dyes_inlet <- rbind(chico_bay, oysterbay_2020, mudbay_2014, silverdale)
+
+write_csv(dyes_inlet, here("data", "processed", "dyes_inlet_oly_counts.csv"))
+```
+
 
 ## Fidalgo Bay Sites
 
