@@ -15,12 +15,17 @@ This script is used to make density and population estimates from PSRF's cleaned
 # Load libraries ----
 library(here)
 library(tidyverse)
+library(scales)
 
 # Read in data ----
 dyes <- read_csv(here("data", "processed", "dyes_inlet_oly_counts.csv"))
+fidalgo <- read_csv(here("data", "processed",
+                         "fidalgo_population_estimates.csv"))
 ```
 
 ## Density estimates
+
+### Dyes
 
 A few ways to think about this:
 
@@ -139,5 +144,62 @@ ggplot(silver_dens_means, aes(x = month_year, y = avg_density, color = recorded_
   theme_minimal(base_size = 12) +
   theme(strip.text = element_text(face = "bold"),
         panel.background = element_rect())
+
+
+# Combine all sites in Dyes
+# I think this is a bad idea. I want to look anywho
+# Calculate means
+dyes_dens_means_combined <- dyes_density |>
+  mutate(year = year(date)) |>
+  group_by(year) |>
+  summarise(n = n(),
+            avg_density = mean(oly_density_m2),
+            std_dev = sd(oly_density_m2),
+            std_err = sd(oly_density_m2) / sqrt(n()))
+
+# Check
+ggplot(dyes_dens_means_combined, aes(x = year, y = avg_density)) +
+  geom_errorbar(aes(ymin = avg_density - std_err, ymax = avg_density + std_err), color = "grey50") +
+  geom_point() +
+  geom_line() +
+  labs(title = "Dyes Inlet Oly densities",
+       subtitle = "All Dyes sites combined",
+       x = "Date",
+       y = "Average # live Olys per square meter") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text = element_text(face = "bold"),
+        panel.background = element_rect())
+```
+
+### Fidalgo
+
+```{r}
+# Plot of fidalgo bay population estimates
+# Data from Skagit MRC report, 2023
+ggplot(fidalgo, aes(x = year, y = population_estimate)) +
+  geom_point() +
+  geom_line(linetype = "dashed") +
+  scale_y_continuous(labels = 
+                       label_number(scale_cut = cut_short_scale()),
+                     breaks = 
+                       breaks_width(width = 500000),
+                     limits = c(0, 6000000)) +
+  scale_x_continuous(limits = c(2000, 2025)) +
+  labs(title = "Olympia oyster population estimates",
+       subtitle = "Fidalgo Bay, 2002-2023",
+       caption = "Data: Dinnel 2023, Skagit MRC report",
+       x = "Year",
+       y = "Oly population estimate") +
+  theme_minimal() +
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank(),
+    plot.caption = element_text(face = "italic", color = "grey50"),
+    axis.title.y = element_text(margin = margin(0,15,0,0)),
+    axis.title.x = element_text(margin = margin(15,0,0,0)),
+    plot.margin = margin(10,10,10,10),
+    plot.subtitle = element_text(margin = margin(0,0,15,0))
+  )
 ```
 
