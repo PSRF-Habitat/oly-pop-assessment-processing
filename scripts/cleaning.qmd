@@ -46,6 +46,8 @@ weaverlingspit_2020_raw <- read_csv(here("data", "raw", "weaverlingspit_2020_cou
 
 fidalgo_2023_raw <- read_csv(here("data", "raw", "fidalgobay_2023_counts_raw.csv"))
 
+fidalgo_2023_heights_raw <- read_csv(here("data", "raw", "fidalgo_2023_heights.csv"))
+
 # 
 
 ```
@@ -403,4 +405,26 @@ fidalgo <- fidalgo |>
 # Need to logic through different quadrat sizes when I have more brainpower
 
 ```
+
+
+### 2023 Heights
+
+Raw format is height | # olys with that height
+
+Instead, I want each row = 1 observation of an oly (sample_id & height_mm perhaps)
+
+```{r}
+# Expand height data so each row = 1 oly measured
+fidalgo_2023_heights <- fidalgo_2023_heights_raw |>
+  uncount(weights = count) |>
+  mutate(sample_id = row_number())
+```
+
+```{r}
+# Save cleaned data
+write_csv(fidalgo_2023_heights, here("data", "processed", "fidalgo_heights_2023.csv"))
+```
+
+
+
 
