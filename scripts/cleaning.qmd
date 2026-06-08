@@ -29,6 +29,8 @@ chicobay_2021_raw <- read_csv(here("data", "raw", "chicobay_2021-04-29_counts_ra
 # Oyster Bay
 oysterbay_2020_raw <- read_csv(here("data", "raw", "oysterbay_2020-07-03_counts_raw.csv")) |> clean_names()
 
+oysterbay_2026_raw <- read_csv(here("data", "raw", "oysterbay_2026-04-21_oysterpopsurvey_raw.csv")) |> clean_names()
+
 # Silverdale
 silverdale_raw <- read_csv(here("data", "raw", "silverdale_oyster_assessment_countsHH.csv")) |>
   clean_names() # previously processed by MK & HH
@@ -177,6 +179,8 @@ Would like to confirm with someone that we only visited Chico bay in 2019 and 20
 
 ### Oyster Bay
 
+#### Oyster Bay 2020
+
 Brian says that this survey includes are within the footprint of a 2011 bulk shell project, but also a large area of the surrounding tideland, effectively sampling all "productive" areas.
 
 Lat and long is included in this data. Here is the ArcGIS link anyways: https://psrf.maps.arcgis.com/apps/mapviewer/index.html?webmap=04b1c80881b7496e8bd6fec2e81b833b
@@ -212,7 +216,7 @@ Nice
 
 **Other Oyster Bay Notes**
 
-PSRF staff visited Oyster bay in July 2012 to look at the emergent shell area from the 2011 shell enhancement. Though the data mapping the perimeter of the shell enhancement was lost, a note mentions that the enhancement is "located as intended", abutting the western edge of the natural oyster bed.
+PSRF staff visited Oyster bay in July 2012 to look at the emergent shell area from the 2011 shell enhancement. Though the data mapping the perimeter of the shell enhancement was lost, a note mentions that the enhancement is "located as intended", abutting the western edge of the natural oyster bed. Notes say: "Recruits are in high density (est. >200 -m2), and growing well – most >20mm."
 
 ### Mud Bay
 
