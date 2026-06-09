@@ -214,6 +214,26 @@ oysterbay_2020 <- oysterbay_2020 |>
 
 Nice
 
+#### Oyster Bay 2026
+
+##### Heights
+
+Currently wide with shell_height1_mm - shell_height10_mm in each row.
+
+Want to get this into the format shell_height | sample_id
+
+```{r}
+# Pivot from wide to long so each row = 1 oly measured
+oysterbay_2026_heights <- oysterbay_2026_raw |>
+  pivot_longer(cols = starts_with("shell_height"),
+               values_to = "height_mm") |>
+  select(sample_id, name, height_mm)
+
+# Save cleaned data
+write_csv(oysterbay_2026_heights, here("data", "processed", "oysterbay_2026_heights.csv"))
+```
+
+
 **Other Oyster Bay Notes**
 
 PSRF staff visited Oyster bay in July 2012 to look at the emergent shell area from the 2011 shell enhancement. Though the data mapping the perimeter of the shell enhancement was lost, a note mentions that the enhancement is "located as intended", abutting the western edge of the natural oyster bed. Notes say: "Recruits are in high density (est. >200 -m2), and growing well – most >20mm."
