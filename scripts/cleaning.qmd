@@ -26,6 +26,10 @@ chicobay_2019_raw <- read_csv(here("data", "raw", "chicobay_2019-08-30_counts_ra
 
 chicobay_2021_raw <- read_csv(here("data", "raw", "chicobay_2021-04-29_counts_raw.csv")) |> clean_names()
 
+chicobay_2019_heights_raw <- read_csv(here("data", "raw", "chicobay_2019-08-30_heights_raw.csv")) |> clean_names()
+
+chicobay_2021_heights_raw <- read_csv(here("data", "raw", "chicobay_2021-04-29_heights_raw.csv"))
+
 # Oyster Bay
 oysterbay_2020_raw <- read_csv(here("data", "raw", "oysterbay_2020-07-03_counts_raw.csv")) |> clean_names()
 
@@ -92,6 +96,8 @@ Chico bay had 500 seeded cultch bags and 500 cubic yards of shell spread on tide
 
 #### Chico Bay 2019
 
+##### Counts
+
 MK looked briefly for site map / spatial data in drive and ArcGIS Online and did not find (3/4/26)
 
 ```{r}
@@ -126,6 +132,10 @@ chicobay_2019 <- chicobay_2019 |>
 ```
 
 All set
+
+##### Heights
+
+I chose not to use 2019 heights because oly size was only measured in reference transect, and reference transect is excluded from density estimates. Also, there is no existing spatial data for this survey... So no one really knows what is going on here.
 
 #### Chico Bay 2021
 
@@ -168,6 +178,25 @@ Combine Chico Bay files:
 
 ```{r}
 chico_bay <- rbind(chicobay_2019, chicobay_2021)
+```
+
+##### Heights
+
+Raw format is height | # olys with that height
+
+Instead, I want each row = 1 observation of an oly (sample_id & height_mm perhaps)
+
+```{r}
+# Two count columns need to be added together
+# (this is how the data was presented in 2021 report, I am following suit here)
+cb_heights <- chicobay_2021_heights_raw |>
+  mutate(count = count1 + count2) |>
+  select(c("count", "size_class_mm"))
+
+# Convert to format sample_id | height_mm
+cb_heights <- cb_heights |>
+  uncount(weights = count) |>
+  mutate(sample_id = row_number())
 ```
 
 ```{r}
