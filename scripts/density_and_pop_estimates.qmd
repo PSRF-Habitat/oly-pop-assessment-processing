@@ -171,6 +171,17 @@ ggplot(dyes_dens_means_combined, aes(x = year, y = avg_density)) +
         panel.background = element_rect())
 ```
 
+#### Silverdale
+
+2022 assessment, pre-shell amendment. 3.9 avg olys/m2, 2.66 acres = 10764.64m2 surveyed: https://docs.google.com/document/d/1Wmy2oxhbtWTrteS0Y989_54kV0WHNyLythaDU19gCaw/edit?tab=t.0
+
+2022 pop est = 3.9 x 10764.64 = 41,982 olys
+```{r}
+3.9 * 10764.64
+```
+
+
+
 ### Fidalgo
 
 ```{r}
@@ -201,5 +212,40 @@ ggplot(fidalgo, aes(x = year, y = population_estimate)) +
     plot.margin = margin(10,10,10,10),
     plot.subtitle = element_text(margin = margin(0,0,15,0))
   )
+```
+
+### Chico
+
+```{r}
+dyes_density |>
+  filter(site == "Chico Bay",
+         survey_area == "Project") |>
+  mutate(year = year(date)) |>
+  ggplot(aes(x = as.factor(year), y = oly_density_m2)) +
+  geom_boxplot(outliers = FALSE) +
+  geom_jitter(alpha = 0.5)
+
+
+chico_density_avg <- dyes_density |>
+  filter(site == "Chico Bay",
+         survey_area == "Project") |>
+  mutate(year = year(date)) |>
+  group_by(site, year) |>
+  reframe(density_estimate = mean(oly_density_m2, na.rm = TRUE),
+          std_err = sd(oly_density_m2) / sqrt(n()))
+
+# Add row from 2018, assuming very very very low (0) density... 
+chico_density_avg <- rbind(chico_density_avg, 
+                           list(site = "Chico Bay", 
+                                year = 2018,
+                                density_estimate = 0,
+                                std_err = 5)) |> # a total guess here
+  arrange(year)
+  
+
+# Save chico bay density estimates
+write_csv(chico_density_avg, here("data",
+                                  "processed",
+                                  "chicobay_density_estimates.csv"))
 ```
 

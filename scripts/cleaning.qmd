@@ -137,6 +137,8 @@ All set
 
 I chose not to use 2019 heights because oly size was only measured in reference transect, and reference transect is excluded from density estimates. Also, there is no existing spatial data for this survey... So no one really knows what is going on here.
 
+
+
 #### Chico Bay 2021
 
 Spatial data in ArcGIS : https://psrf.maps.arcgis.com/apps/mapviewer/index.html?layers=7d42c910eb284452ac521e38e3cfcf89
@@ -191,12 +193,17 @@ Instead, I want each row = 1 observation of an oly (sample_id & height_mm perhap
 # (this is how the data was presented in 2021 report, I am following suit here)
 cb_heights <- chicobay_2021_heights_raw |>
   mutate(count = count1 + count2) |>
-  select(c("count", "size_class_mm"))
+  select(c("count", "size_class_mm")) |>
+  rename("height_mm" = "size_class_mm")
 
 # Convert to format sample_id | height_mm
 cb_heights <- cb_heights |>
   uncount(weights = count) |>
   mutate(sample_id = row_number())
+
+# Save Chico Bay 2021 height data
+write_csv(cb_heights, here("data", "processed",
+                           "chicobay_2021_heights.csv"))
 ```
 
 ```{r}
